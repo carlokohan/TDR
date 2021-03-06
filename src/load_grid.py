@@ -30,7 +30,9 @@ class LoadGrid:
                 line = line.rstrip("\n")
                 line_count += 1
                 if len(line) != self.columns:
-                    raise FileFormException(f"Data is not rectangular form. line: {line_count}")
+                    raise FileFormException(
+                        f"Data is not rectangular form. line: {line_count}"
+                    )
 
                 self.validate_data(line, line_count)
                 self.file_data.append(list(line))
