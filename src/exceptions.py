@@ -7,6 +7,7 @@ class FileFormException(Exception):
     """
         Data is not rectangular (same length with first line)
     """
+
     pass
 
 
@@ -14,6 +15,7 @@ class InvalidDataException(Exception):
     """
         Data contains other characters besides 'X', 'O', and ' ' (space)
     """
+
     pass
 
 
@@ -21,4 +23,5 @@ class MissingParametersException(Exception):
     """
         Run command is missing parameters
     """
+
     pass
