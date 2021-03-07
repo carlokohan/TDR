@@ -10,5 +10,5 @@ Threat Detection and Response - SOAR
    --model_type=dissimilarity --start_row=1 --start_column=1 --row_size=3 --column_size=33
    
 3. To run Schelling model:
-    >python3 src/runner.py --file_path=/home/jhusmillo/PycharmProjects/TDR/tests/data/sample.txt --model_type=schelling --threshold=0.3 --iterations=20
+    >python3 src/runner.py --file_path=absolute/path/to/sample.txt --model_type=schelling --threshold=0.3 --iterations=20
    > 
