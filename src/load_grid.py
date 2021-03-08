@@ -5,7 +5,7 @@
 
 import re
 
-from exceptions import FileFormException, InvalidDataException
+from src.exceptions import FileFormException, InvalidDataException
 
 
 class LoadGrid:
