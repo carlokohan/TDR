@@ -3,11 +3,11 @@
 """
 
 from argparse import ArgumentParser
-from exceptions import MissingParametersException
-from load_grid import LoadGrid
+from src.exceptions import MissingParametersException
+from src.load_grid import LoadGrid
 
-from models.schelling_model import SchellingModel
-from models.segregation_model import SegregationModel
+from src.models.schelling_model import SchellingModel
+from src.models.segregation_model import SegregationModel
 
 
 def parse_args():
